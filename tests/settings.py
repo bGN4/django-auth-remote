@@ -4,7 +4,7 @@ import os
 import posixpath
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 LOGIN_URL = 'http://localhost:4430/login'
 
