@@ -1,5 +1,5 @@
-from distutils.core import setup
-from setuptools import find_packages
+#from distutils.core import setup
+from setuptools import setup, find_packages
 
 
 VERSION = __import__("auth_remote").__version__
@@ -28,7 +28,7 @@ setup(
     license='MIT License',
     platforms=['OS Independent'],
     url="https://github.com/bGN4/django-auth-remote",
-    packages=find_packages(exclude=["tests"]),
+    packages=['auth_remote',],
     include_package_data=True,
     install_requires=install_requires,
     classifiers=CLASSIFIERS,

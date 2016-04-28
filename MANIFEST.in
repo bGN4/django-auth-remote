@@ -1,0 +1,5 @@
+recursive-include auth_remote/static *
+recursive-include auth_remote/templates *
+recursive-include auth_remote *.py
+recursive-exclude tests *
+exclude MANIFEST.in
