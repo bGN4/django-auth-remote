@@ -7,6 +7,7 @@ import posixpath
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 LOGIN_URL = 'http://localhost:4430/login'
+REDIRECT_FIELD_NAME = 'ref'
 
 DEBUG = True
 
