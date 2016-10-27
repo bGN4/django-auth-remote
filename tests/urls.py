@@ -10,6 +10,7 @@ admin.site.login = views.adminlogin
 
 urlpatterns = [
     url(r'^$', 'app.views.home', name='home'),
+    url(r'^about$', 'app.views.about', name='about'),
     url(r'^logout$', 'django.contrib.auth.views.logout', {'next_page': '/',}, name='logout'),
 
     url(r'^login/', include('auth_remote.urls')),

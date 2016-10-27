@@ -1,5 +1,7 @@
+global-exclude *
 recursive-include auth_remote/static *
 recursive-include auth_remote/templates *
 recursive-include auth_remote *.py
-recursive-exclude tests *
+recursive-include django_auth_remote.egg-info *
+include setup.* README.*
 exclude MANIFEST.in
